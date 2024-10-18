@@ -140,7 +140,7 @@ def recetas():
 def blog():
     if not 'login' in session:
         return redirect('/')
-    return render_template('website/blog.html')
+    return render_template('website/Blog.html')
 
 
 
