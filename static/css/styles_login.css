@@ -1,0 +1,191 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #25724e;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.login-form .form-group {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.login-form label span {
+    color: red;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0d1cc;
+    border-radius: 5px;
+    background-color: #f7ebe9;
+    font-size: 16px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-login:hover {
+    background-color: #ffb84d;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.remember-me label {
+    margin-left: 8px;
+    font-size: 14px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #ffb84d;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-register {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #ffa41d;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .login-container {
+        padding: 15px;
+    }
+}
+
+/* Estilo del Modal */
+.modal {
+    display: none; /* Ocultar por defecto */
+    position: fixed; /* Mantener el modal en la misma posición */
+    z-index: 1000; /* Asegurarse de que esté por encima de otros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Ancho completo */
+    height: 100%; /* Altura completa */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro y semi-transparente */
+}
+
+.modal-content {
+    background-color: white; /* Fondo blanco */
+    margin: 15% auto; /* Margen superior del 15% y centrado */
+    padding: 20px; /* Espaciado interno */
+    border: 1px solid #e0d1cc; /* Borde similar al formulario */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 80%; /* Ancho del modal (ajustable) */
+    max-width: 400px; /* Ancho máximo para el modal */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h3 {
+    text-align: center;
+    color: #25724e; /* Mismo color que el encabezado del formulario de inicio de sesión */
+}
+
+.modal-content label {
+    display: block;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.modal-content input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0d1cc;
+    border-radius: 5px;
+    background-color: #f7ebe9;
+    font-size: 16px;
+    margin-bottom: 15px; /* Espacio entre inputs */
+}
+
+.modal-content button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ffc545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Estilos para cerrar el modal */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Estilo para mostrar la contraseña */
+#passwordMessage {
+    color: #ffb84d; /* Color del mensaje de contraseña */
+    text-align: center; /* Centrar texto */
+    font: bold;
+    font-size: 18px; /* Tamaño de fuente */
+    margin-top: 10px; /* Margen superior */
+}

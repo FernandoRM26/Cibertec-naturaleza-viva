@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar sesión</title>
+    <link rel="stylesheet" href="../static/css/styles_login.css">
+</head>
+<body>
+    <div class="login-container">
+        <form action="/login" method="POST" class="login-form">
+            <h2>Iniciar sesión</h2>
+            <div class="form-group">
+                <label for="User">Nombre de usuario <span>*</span></label>
+                <input type="text" name="User" id="User" placeholder="Nombre de usuario" required>
+            </div>
+            <div class="form-group">
+                <label for="Passw">Contraseña <span>*</span></label>
+                <input type="password" id="Passw" name="Passw" placeholder="Contraseña" required>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-login">Ingresar</button>
+            </div>
+            {% if error %}
+            <div class="error-message">
+                {{ error }}
+            </div>
+            {% endif %}
+            <div class="form-group">
+                <a href="#" id="forgotPassword" class="forgot-password"><strong>¿Olvidaste tu contraseña?</strong></a>
+            </div>
+            
+            <div class="form-group">
+                <a href="/registro" class="forgot-register"><strong>Registrar</strong></a>
+            </div>
+        </form>
+    </div>
+    <!-- Popap para recuperar contraseña -->
+    <div id="passwordModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <h3>Recuperar Contraseña</h3>
+            <form id="recoverPasswordForm">
+                <label for="recoverUser">Nombre de usuario:</label>
+                <input type="text" id="recoverUser" placeholder="Nombre de usuario" required>
+                <label for="recoverDNI">DNI:</label>
+                <input type="text" id="recoverDNI" placeholder="DNI" required pattern="\d{8}" title="Ingrese un DNI Correcto">
+                <button class="btn-login" type="submit">Recuperar</button>
+            </form>
+            <div id="recoverMessage"></div>
+        </div>
+    </div>
+
+    <!-- Popap para mostrar la contraseña -->
+    <div id="showPasswordModal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeShowPasswordModal">&times;</span>
+            <h3>Tu Contraseña</h3>
+            <div id="passwordMessage"></div>
+    </div>
+</div>
+
+
+    <script src="../static/js/recuperar_pass.js"></script>
+</body>
+</html>

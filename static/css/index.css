@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --primary-color: #4CAF50;  /* Verde natural */
+    --secondary-color: #fff;  /* Blanco suave */
+    --accent-color: #388E3C;  /* Verde más oscuro */
+    --text-color: #333;  /* Gris oscuro */
+    --heading-font: 'Raleway', sans-serif;
+    --body-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    line-height: 1.6;
+}
+
+.logo img {
+    width: 150px; /* Ajusta este valor según el tamaño deseado */
+    height: auto; /* Para mantener la proporción */
+    margin-top: -20px; /* Ajusta este valor para mover la imagen hacia arriba */
+
+}
+
+.header {
+    
+    background-size: cover; /* Cubre todo el espacio del header */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    height: 630px; /* Altura deseada del header */
+    position: relative; /* Asegura que los elementos dentro del header respeten el orden */
+
+}
+
+
+
+
+.contenido-header {
+    position: relative; /* Asegura que los elementos dentro del contenido respeten el orden */
+    z-index: 1; /* Asegura que el contenido esté sobre la imagen de fondo */
+    height: 650px; /* Altura deseada del contenedor */
+
+}
+
+.logo img {
+    width: 180px; /* Ancho del logo */
+    height: 200px; /* Para mantener la proporción */
+    display: block; /* Asegura que la imagen se muestre como bloque */
+    margin-right: auto;/* Centra el logo horizontalmente */
+}
+
+.barra {
+    display: flex; /* Asegura que los elementos hijos se coloquen en fila */
+    justify-content: space-between; /* Coloca los elementos a los extremos */
+    align-items: center; /* Centra los elementos verticalmente */
+    position: relative; /* Asegura que la barra respete el flujo del documento */
+    z-index: 2; /* Asegura que la barra esté por encima del fondo */
+}
+
+.nav-principal {
+    font-family: 'Poppins', sans-serif; /* Cambia el tipo de fuente */
+    margin-top: 0; /* Eliminamos cualquier margen superior */
+    text-align: right; /* Alineamos los elementos a la derecha */
+    position: absolute; /* Posicionamos de forma absoluta */
+    top: 15px; /* Ajustamos la distancia desde la parte superior */
+    right: 20px; /* Ajustamos la distancia desde la derecha */
+    padding: 10px 0; /* Espacio interior para mayor área clicable */
+    
+
+}
+
+.nav-principal a {
+    margin-top: 0px; /* Ajusta el margen superior según sea necesario */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 28px; /* Tamaño de fuente */
+    font-weight: bold; /* Texto en negrita */
+    transition: color 0.3s ease; /* Transición suave del color */
+    margin-left: 20px; /* Añadimos margen izquierdo para separar los enlaces */
+}
+
+.nav-principal a:hover {
+    color: #f7ca18; /* Color al pasar el mouse */
+}
+
+.texto-header {
+    text-align: center; /* Centra el texto */
+    color: #fff; /* Color del texto */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.texto-header h1 {
+    font-size: 42px; /* Tamaño de fuente */
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    text-shadow: 2px 2px 4px rgba(123, 244, 127, 0.5); /* Agrega un sombreado suave */
+    z-index: 2; /* Asegura que el texto esté por encima del fondo */
+    margin-top: 190px; /* Ajusta la distancia desde la parte superior */
+ 
+}
+
+h1, h2, h3 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+.header {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    
+}
+
+.header .nav-principal a.activo {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.texto-header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contenido-principal {
+    padding: 3rem 0;
+}
+
+.nuestro-menu {
+    background: #4CAF50; /* Color verde naturaleza */
+    color: white; /* Color del texto */
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.contenedor {
+    
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+.contenedor.grid-menu {
+    background-color: #228B22; /* Color verde naturaleza */
+    padding: 2rem; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados opcional */
+}
+
+.grid-menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las columnas */
+    background-color: #228B22; /* Color verde naturaleza */
+}
+
+.menu {
+    background-color: #f8f8f8;
+    padding: 20px;
+    
+    background-color: #228B22; /* Color verde naturaleza */
+}
+
+.menu h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu li p {
+    margin: 0;
+}
+
+.menu .precio {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+
+.menu ul li {
+    margin-bottom: 1rem;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    padding: 0.5rem;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.menu ul li:hover {
+    background: var(--accent-color);
+    color: var(--secondary-color);
+}
+
+.nuestros-testimoniales {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer {
+    background: #fff; /* Cambiado a blanco */
+    color: #000; /* Cambiado a negro */
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.contenido-footer {
+    display: flex;
+    justify-content: space-between; /* Ajustar espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten al tamaño del contenedor */
+    gap: 0.5rem; /* Espacio entre los divs, ajusta según sea necesario */
+}
+
+.footer-box {
+    margin-bottom: 1rem;
+    flex: 1; /* Ocupa el mismo espacio dentro del contenedor */
+    min-width: 200px; /* Ajustar ancho mínimo para evitar demasiado estrechamiento */
+}
+
+.footer-box h3 {
+    margin-bottom: 3rem;
+    color: #000;
+}
+
+.footer-box p {
+    margin-bottom: 0.5rem;
+    color: #33A100;
+}
+
+.footer-box a {
+    color: #fff; /* Cambiado a negro */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-box a:hover {
+    color: var(--accent-color);
+}
+
+
+
+.footer-pago img {
+    width: 250px; /* Ajusta este valor al tamaño deseado */
+    height: auto;
+    
+
+}
+
+.imagenes-adicionales {
+    display: flex;
+    justify-content: center; /* Ajusta el espacio entre las imágenes */
+    align-items: center; /* Centra verticalmente las imágenes */
+    margin-top: 3rem; /* Ajusta según sea necesario */
+}
+
+.imagenes-adicionales img {
+    width: 50px; /* Ajusta el tamaño deseado */
+    height: 50px; /* Ajusta el tamaño deseado */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor redondo */
+    border: 2px solid #ddd; /* Borde opcional para resaltar */
+    transition: transform 0.3s ease; /* Efecto de transición opcional */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+
+
+.imagen-redonda {
+    width: 30px; /* Ajusta el tamaño según tu preferencia */
+    height: 30px; /* Ajusta el tamaño según tu preferencia */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor redondo */
+    border: 2px solid #ddd; /* Opcional: borde para resaltar */
+    transition: transform 0.3s ease; /* Efecto de transición opcional */
+}
+
+.imagen-redonda:hover {
+    transform: scale(1.1); /* Efecto de escala al pasar el ratón */
+}
+
+
+
+.copyright {
+    background: #33A100;
+    height: 150px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.experiencia {
+    text-align: center;
+    padding: 20px;
+}
+
+.experiencia h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #085904;
+}
+
+.experiencia h2 span {
+    color: #56cc50;
+    font-size: 24px; /* Tamaño del texto del span */
+    display: block; /* Muestra el span como un bloque */
+    font-weight: bold; /* Negrita para el span */
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.galeria .imagen {
+    flex: 1 1 calc(33.333% - 20px); /* Tres imágenes por fila con espacio entre ellas */
+    max-width: calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.galeria .imagen img {
+    width: 150px;
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 5px; /* Bordes redondeados, opcional */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra, opcional */
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .galeria .imagen {
+        flex: 1 1 calc(50% - 20px); /* Dos imágenes por fila en pantallas pequeñas */
+        max-width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .galeria .imagen {
+        flex: 1 1 100%; /* Una imagen por fila en pantallas muy pequeñas */
+        max-width: 100%;
+    }
+}
+
+.iconos {
+    text-align: center; /* Centra el contenido de la sección */
+    padding: 20px 0; /* Espaciado vertical */
+}
+
+
+
+.listado-iconos {
+    display: flex; /* Flexbox para organizar los íconos en fila */
+    justify-content: center; /* Centra los íconos horizontalmente */
+    gap: 300px; /* Espacio entre los íconos */
+    list-style: none; /* Elimina los puntos de lista */
+    padding: 0; /* Elimina el padding por defecto de la lista */
+}
+
+.listado-iconos li {
+    display: flex; /* Flexbox para organizar el contenido de los íconos */
+    flex-direction: column; /* Organiza los íconos en columna */
+    align-items: center; /* Centra el contenido de los íconos */
+}
+
+.listado-iconos img {
+    width: 180px; /* Establece el ancho máximo de las imágenes */
+    height: auto; /* Mantiene la relación de aspecto */
+    /*border-radius: 50%; /* Opcional: redondea las imágenes */
+    
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+.listado-iconos p {
+    font-size: 16px; /* Tamaño de fuente para el texto */
+    color: var(--text-color); /* Color del texto, puedes ajustar según tu diseño */
+}
+
+
+
+
+.estiloss {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.listado-largo {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; /* Eliminar el estilo de lista */
+}
+
+.listado-largo li {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.imagen-ancho-completo {
+    width: 1270px;
+    height: 300px; /* Mantener la proporción de la imagen */
+    display: block; /* Eliminar el espacio en línea alrededor de la imagen */
+    margin-left: 100px; /* Ajusta este valor según la separación que desees */
+    margin-right: 10px;
+    
+}
+
+
+
+
+
+
+
+.conoce {
+    text-align: center; /* Centra el contenido de la sección */
+    padding: 70px; /* Espaciado alrededor de la sección */
+}
+
+.conoce h2 {
+    font-size: 36px; /* Tamaño del título */
+    margin-bottom: 20px; /* Espacio inferior */
+    color: #085904;
+}
+
+.conoce h2 span {
+    font-size: 24px; /* Tamaño del texto del span */
+    display: block; /* Muestra el span como un bloque */
+    font-weight: bold; /* Negrita para el span */
+    color: #56cc50;
+}
+
+
+
+
+
+
+.conoce p{
+    font-size: 18px; /* Tamaño del texto del párrafo */
+    max-width: 1300px; /* Ancho máximo del párrafo para mejor legibilidad */
+    margin: 0 auto; /* Centra el párrafo horizontalmente */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+    color: var(--text-color); /* Color del texto del párrafo */
+    text-align: justify; /* Justifica el texto para un aspecto limpio */
+
+}
+
+

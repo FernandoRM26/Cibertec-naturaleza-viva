@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0 auto;
+    width: 1150px;
+}
+.General{
+    display: flex;
+    justify-content: center;
+    gap: 28px; 
+    margin: 0 auto;   
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: #25746A;
+    border-bottom: 2px solid #FFC127 ;   
+    padding: 20px 0px 10px 0px; 
+    text-align: center;
+    font-size: 43px;
+}
+.iniciarsesion{
+    width: 453px;
+    height: 470px;
+}
+.iniciarsesion .Titulo-iniciarsesion{
+    display: flex;    
+    color: #25746A;
+    border-bottom: 2px solid #FFC127 ;   
+    padding: 20px 0px 10px 0px; 
+    text-align: left;
+    font-size: 22px;
+}
+.General .iniciarsesion .nombre{
+    margin: 50px 0px 12px 0px;
+    display: flex;
+    flex-direction: column;
+}
+.General .iniciarsesion .nombre .asterisco{
+    color: red;
+    font-size: 20px;
+}
+.General .iniciarsesion .nombre .Nombre-text{
+    padding: 10px 10px 10px 0px;
+    font-size: 18px;
+}
+.General .iniciarsesion .nombre .cuadro-nombre{
+    color: rgb(60, 58, 58);
+    background-color: rgb(234, 224, 224);
+    text-decoration: none;
+    padding: 16px;
+    
+}
+.General .iniciarsesion .contraseña{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 12px 0px;
+}
+.General .iniciarsesion .contraseña .contraseña-text{
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+    
+}
+.General .iniciarsesion .contraseña .contraseña-cuadro{
+    color: rgb(60, 58, 58);
+    background-color: rgb(234, 224, 224);
+    text-decoration: none;
+    padding: 16px;
+}
+.General .iniciarsesion .contraseña .contraseña-text .asterisco{
+    color: red;
+}
+.General .iniciarsesion .botones-iniciar{
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 12px 0px;
+
+}
+.General .iniciarsesion .botones-iniciar .Acceso{
+    text-decoration: none;
+    padding: 6px 20px;
+    background-color: #FFC127;
+    color: white;
+} 
+.General .iniciarsesion .botones-iniciar .Acceso:hover{
+    background-color: #25746A;
+}
+.General .iniciarsesion .botones-iniciar .Recuérdame{
+    text-decoration: none;
+    padding: 6px 20px;
+}
+.General .iniciarsesion a{
+    color: #25746A;
+}
+
+
+
+
+.Registrate{
+    width: 453px;
+    height: 470px;
+}
+.Registrate .Titulo-Registrate{
+    display: flex;    
+    color: #25746A;
+    border-bottom: 2px solid #FFC127 ;   
+    padding: 20px 0px 10px 0px; 
+    text-align: left;
+    font-size: 22px;
+}
+.General .Registrate .nombre-de-usuario{
+    margin: 50px 0px 12px 0px;
+    display: flex;
+    flex-direction: column;  
+}
+.General .Registrate .nombre-de-usuario .usuario-text{
+    padding: 10px 10px 10px 0px;
+    font-size: 18px;
+}
+.General .Registrate .nombre-de-usuario .cuadro-usuario{
+    color: rgb(60, 58, 58);
+    background-color: rgb(234, 224, 224);
+    text-decoration: none;
+    padding: 16px;
+}
+.General .Registrate .nombre-de-usuario .usuario-text .asterisco{
+    color: red;
+    font-size: 20px;
+}
+.General .Registrate .correo-usuario{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 12px 0px;
+}
+.General .Registrate .correo-usuario .correo-text{
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
+}
+.General .Registrate .correo-usuario .correo-cuadro{
+    color: rgb(60, 58, 58);
+    background-color: rgb(234, 224, 224);
+    text-decoration: none;
+    padding: 16px;
+}
+.General .Registrate .correo-usuario .correo-text .asterisco{
+    color: red;
+    font-size: 20px;
+}
+.General .Registrate .parrafo-registrate{
+    margin: 0px 0px 14px 0px;
+}
+.General .Registrate .Registrarse{
+    text-decoration: none;
+    text-decoration: none;
+    padding: 6px 20px;
+    background-color: #FFC127;
+    color: white;
+}
+.General .Registrate .Registrarse:hover{
+    background-color: #25746A;
+}

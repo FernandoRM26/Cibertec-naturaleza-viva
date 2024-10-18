@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: #25746a;
+    margin: 30;
+    padding: 30;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25;
+}
+.DESCRIPCION{
+    font-size: 14;
+}
+.receta1{
+    column-count: 2;
+    font-size: 14;
+}
+.title01{
+    color: #25746a;
+    text-align: center;
+    font-size: 18;
+    font-weight: 600;
+    margin: 15px 5px 15px 5px;
+}
+img{
+    width: 650px;
+    height: 400px;
+    margin: 15px 5px 15px 5px;
+}
+.ingredientesubT{
+    color: #25746a;
+    margin: 40px 5px 15px 5px;
+    font-size: 18;
+    font-weight: 600;
+}
+.pasos01{
+    font-size: 14;
+    color: #25746a;
+    font-weight: 400;
+}
+.receta02{
+    column-count: 2;
+}
+.title02{
+    color: #25746a;
+    text-align: center;
+    font-weight: 600;
+    row-gap: 50px;
+    font-size: 18;
+}
+img{
+    width: 650px;
+    height: 400px;
+    margin: 15px 5px 15px 5px;
+}
+.ingrSubT02{
+    color: #25746a;
+    font-size: 18;
+    font-weight: 600;
+}
+.pasos02{
+    color: #25746a;
+    column-count: 2;
+    font-size: 18;
+    font-weight: 600;
+}
+.receta03{
+    column-count: 2;
+    font-size: 14;
+}
+.title03{
+    color: #25746a;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18;
+}
+.ingrSubT03{
+    color: #25746a;
+    font-size: 18;
+    font-weight: 600;
+}
+.pasos03{
+    color: #25746a;
+    font-size: 18;
+    font-weight: 600;
+}

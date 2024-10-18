@@ -1,0 +1,605 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
+main{
+    width: 1150px;
+    margin: 0 auto;
+}
+main .Productos-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 8px 0px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: center;
+    color: #25746A;
+}
+main .Productos-total .Superpremium-titulo{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 12px 0px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 44px;
+    color: #25746A;
+}
+main .Productos-total .Frutas-titulo{
+    color: #25746A;
+    font-size: 18px;
+}
+main .Productos-total .Frutas-titulo .Tipos-fruta1{
+    display: flex;   
+    justify-content: center;
+    gap: 100px;
+    padding: 25px 0px;
+}
+main .Productos-total .Frutas-titulo .Tipos-fruta2{
+    display: flex;     
+    gap: 136px;
+    padding: 25px 0px;
+    margin: 0px 0px 15px 0px;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya .Baya-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya .Baya-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya .Baya-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya .Baya-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya .Baya-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Baya a:hover{
+    background-color: #35c338
+}
+main .imagen-Bayas{
+    width: 137px;
+    height: 198px;
+}
+
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas .Espinacas-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas .Espinacas-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas .Espinacas-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas .Espinacas-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas .Espinacas-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Espinacas a:hover{
+    background-color: #35c338;
+}
+main .imagen-Espinacas{
+    width: 137px;
+    height: 198px;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos .Plátanos-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos .Plátanos-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos .Plátanos-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos .Plátanos-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos .Plátanos-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Plátanos a:hover{
+    background-color: #35c338;
+}
+main .imagen-Plátanos{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai .Acai-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai .Acai-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai .Acai-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai .Acai-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai .Acai-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 3px #03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta1 .Cuadro-Acai a:hover{
+    background-color: #35c338;
+}
+main .imagen-Acai{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 184px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas .Manzanas-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas .Manzanas-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas .Manzanas-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas .Manzanas-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas .Manzanas-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Frutas-titulo .Tipos-fruta2 .Cuadro-Manzanas a:hover{
+    background-color: #35c338
+}
+main .imagen-Manzanas{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+
+
+
+main .Productos-total .Semillas-titulo{
+    color: #25746A;
+}
+main .Productos-total .Semillas-titulo .Tipo-semilla {
+    display: flex;
+    gap: 100px;
+    padding: 25px 0px;
+}
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía .Chía-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía .Chía-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía .Chía-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía .Chía-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía .Chía-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Chía a:hover{
+    background-color: #35c338
+}
+main .imagen-Chía{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo .Sésamo-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo .Sésamo-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo .Sésamo-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo .Sésamo-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo .Sésamo-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Sésamo a:hover{
+    background-color: #35c338
+}
+
+
+main .imagen-Sésamo{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces .Nueces-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces .Nueces-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces .Nueces-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces .Nueces-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces .Nueces-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Nueces a:hover{
+    background-color: #35c338
+}
+main .imagen-Nueces{
+    width: 137px;
+    height: 198px;
+}
+
+
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras{
+    border-radius: 10px;
+    border: 1px #dfe1e5 solid;
+    width: 350px;
+    height: 390px;
+    padding: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras:hover{
+    border: 1px #35c338  solid;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras .Almendras-text{
+    padding: 12px 0px 8px 0px;
+    font-size: 16px
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras .Almendras-text:hover{
+    color: #35c338;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras .Almendras-marca{
+    padding: 0px 0px 8px 0px;
+    font-size: 16px;
+    color: #03a943
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras .Almendras-precio{
+    color: red;
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras .Almendras-cantidad{
+    padding: 4px 0px 8px 0px;
+    margin: 8px 0px 8px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border-radius: 6px;
+    border: 1px #dfe1e5 solid;
+    font-size: 16px        
+}
+
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras a{
+    padding: 4px 0px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: 6px;
+    border: 1px 03a943 solid; 
+    font-size: 16px;
+    color: white;
+    background-color: #03a943;    
+}
+main .Productos-total .Superpremium-total .Semillas-titulo .Tipo-semilla .Cuadro-Almendras a:hover{
+    background-color: #35c338
+}
+main .imagen-Almendras{
+    width: 137px;
+    height: 198px;
+}
+
+    

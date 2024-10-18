@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NATURALEZA VIVA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bona+Nova&family=Raleway:wght@700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../../static/css/index.css">
+    <link rel="stylesheet" href="../../static/css/Blog.css">
+</head>
+
+<body>
+    <header class="header header-inicio">
+        <div class="contenido-header contenedor" style="background-image: url('/static/img/3.jpg'); height: 650px;">
+            <div class="barra">
+                <div class="logo">
+                    <img src="/static/img/logo1.jpeg" alt="logo cafeteria">Bienvenido <strong>{{ session['User'] }}</strong>
+                </div>
+                <nav class="nav-principal">
+                    <a class="activo" href="/natura-viva/inicio">Inicio</a>
+                    <a href="/natura-viva/nosotros">Nosotros</a>
+                    <a href="/natura-viva/productos">Productos</a>
+                    <a href="/natura-viva/recetas">Recetas</a>
+                    <a href="/natura-viva/blog">Blog</a>
+                    <a href="/login/cerrar">Cerrar Session</a>
+                </nav>
+            </div>
+
+            <div class="texto-header">
+                <h1>"NUTRIENDO TU VIDA, UN SUPERMERCADO SALUDABLE A UN CLIP DE DISTANCIA" </h1>
+            </div>
+        </div>
+    </header>
+
+    <main class="contenedor contenido-principal text-center">
+        <section class="conoce">
+            <h2><span>CONOCE MÁS</span>SOBRE NOSOTROS</h2>
+
+            <p>Nos dedicamos a ofrecer productos naturistas de la más alta calidad, diseñados para mejorar tu bienestar
+                y promover un estilo de vida saludable. Nuestra misión es proporcionar soluciones naturales y efectivas
+                para tus necesidades diarias, utilizando ingredientes puros y sostenibles.
+
+                Desde nuestros inicios, nos hemos comprometido con la transparencia, la integridad y la excelencia en
+                cada uno de nuestros productos. Cada artículo en nuestra tienda ha sido cuidadosamente seleccionado y
+                elaborado para asegurar que cumpla con los más altos estándares de calidad y eficacia.</p>
+        </section>
+
+        <section class="iconos">
+            <ul class="listado-iconos">
+                <li>
+                    <img src="/static/img/3.png" alt="icono café">   
+                </li>
+                <li>
+                    <img src="/static/img/4.png" alt="icono café">    
+                </li>
+                <li>
+                    <img src="/static/img/4.jpg" alt="icono café">     
+                </li>
+            </ul>          
+        </section>
+
+        <section class="estilos" style="margin-bottom: 2rem;">
+            <ul class="listado-estilos">
+                <li>
+                    <img src="/static/img/pr8.webp" alt="icono vida">                   
+                </li>
+                <li>
+                    <img src="/static/img/pr1.jpeg" alt="icono vida1">   
+                </li>
+                <li>
+                    <img src="/static/img/pr10.jpg" alt="icono vida2">
+                </li>
+            </ul>
+        </section>
+
+        <section class="estilos" style="margin-bottom: 2rem;">
+            <ul class="listado-estilos">
+                <li>
+                    <img src="/static/img/pr3.jpg" alt="icono vida"> 
+                </li>
+                <li>
+                    <img src="/static/img/pr7.webp" alt="icono vida1">
+                </li>
+                <li>
+                    <img src="/static/img/pr12.jpg" alt="icono vida2">
+                </li>
+            </ul>
+
+            
+        </section>
+
+        <section class="estiloss" style="margin-bottom: 2rem;">
+            <ul class="listado-largo">
+                <li>
+                    <img src="/static/img/abajo.jpg" alt="icono largo" class="imagen-ancho-completo">
+                </li>
+            </ul>
+        </section>
+        
+
+       
+
+        <div class="imagenes-adicionales">
+            <!-- Aquí puedes colocar tus imágenes adicionales -->
+            <img src="/static/img/8.png" alt="imagen-redonda">
+            <img src="/static/img/8.1.png" alt="imagen-redonda">
+            <img src="/static/img/8.2.png" alt="imagen-redonda">
+            <img src="/static/img/8.3.png" alt="imagen-redonda">
+        </div>
+
+
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="contenedor contenido-footer bg-white">
+            <div class="footer-box ubicacion">
+                <h3>Ubicación</h3>
+                <p>AV. Gerardo Unger #6543</p>
+                <p>Meza Redonda</p>
+                <p>Independencia</p>
+            </div>
+            <div class="footer-box reservacion">
+                <h3>Reservación</h3>
+                <p>Tel. +51 989454101</p>
+                <p>Tel. +51 989454101</p>
+                <p>Llamar</p>
+            </div>
+            <div class="footer-box politica">
+                <h3>Política</h3>
+                <p>Términos y condiciones</p>
+                <p>Cambios y Devoluciones</p>
+                <p>Política de Privacidad</p>
+                <p>Libro de Reclamaciones</p>
+            </div>
+            <div class="footer-box footer-pago">
+                <h3>Aceptamos</h3>
+                <img src="/static/img/visa.png" alt="galeria">
+            </div>
+        </div>
+
+        <p class="copyright">Naturalia © 2024| Livins Green International SAC RUC: 20212346544</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../static/css/styles_registro.css">
+</head>
+<body>
+    <div class="form-container">
+        <form action="/registro" method="POST" class="register-form">
+            <h2>Registro de Usuario</h2>
+
+            {% if error %}
+            <div class="error-message">
+                {{ error }}
+            </div>
+            {% endif %}
+
+
+            <div class="form-group row">
+                <div class="column">
+                    <label for="dni">DNI <span>*</span></label>
+                    <input type="text" id="dni" name="dni" placeholder="DNI" required pattern="\d{8}" title="Ingrese un DNI Correcto">
+                    <small id="dni-error" class="error-message" style="display:none;"></small>
+                </div>
+                <div class="column">
+                    <label for="user">Usuario <span>*</span></label>
+                    <input type="text" id="user" name="user" placeholder="Nombre de usuario" required>
+                    <span id="user-error" class="error-message" style="display:none; color:red;"></span>
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="column">
+                    <label for="nombre1">Nombre 1 <span>*</span></label>
+                    <input type="text" id="nombre1" name="nombre1" placeholder="Primer nombre" required>
+                </div>
+                <div class="column">
+                    <label for="nombre2">Nombre 2</label>
+                    <input type="text" id="nombre2" name="nombre2" placeholder="Segundo nombre">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <div class="column">
+                    <label for="apellido1">Apellido 1 <span>*</span></label>
+                    <input type="text" id="apellido1" name="apellido1" placeholder="Primer apellido" required>
+                </div>
+                <div class="column">
+                    <label for="apellido2">Apellido 2</label>
+                    <input type="text" id="apellido2" name="apellido2" placeholder="Segundo apellido">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="fecnac">Fecha de Nacimiento <span>*</span></label>
+                <input type="date" id="fecnac" name="fecnac" required>
+            </div>
+
+            <div class="form-group">
+                <label for="tel">Teléfono <span>*</span></label>
+                <input type="tel" id="tel" name="tel" placeholder="Teléfono" required pattern="\d{9}" title="El teléfono debe tener 9 dígitos">
+                <small id="tel-error" class="error-message" style="display:none;"></small>
+
+            </div>
+
+            <div class="form-group">
+                <label for="passw">Contraseña <span>*</span></label>
+                <input type="password" id="passw" name="passw" placeholder="Contraseña" required>
+            </div>
+
+            <div class="form-group">
+                <label for="passwr">Repita Contraseña <span>*</span></label>
+                <input type="password" id="passwr" name="passwr" placeholder="Contraseña" required>
+                <small id="pass-error" class="error-message" style="display:none; color:red;"></small>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn-submit">Registrar</button>
+            </div>
+
+            <div class="form-group">
+                <a href="/login">Iniciar sesion</a>
+            </div>
+        </form>
+    </div>
+    <script src="../static/js/validaciones.js"></script>
+</body>
+</html>
